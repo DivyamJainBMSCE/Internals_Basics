@@ -27,7 +27,7 @@ Data → Training → MLflow Tracking → Hyperparameter Tuning → Docker Deplo
 ## 📁 Project Structure
 
 ```
-MLOPS_Lab_CIE/
+MLOPs_Lab_CIE/
 │
 ├── data/
 │   ├── training_data.csv

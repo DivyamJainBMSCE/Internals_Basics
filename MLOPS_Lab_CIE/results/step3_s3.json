@@ -1,0 +1,12 @@
+{
+    "image_name": "tokencost-predictor",
+    "image_tag": "v1",
+    "base_image": "python:3.10-slim",
+    "test_input": {
+        "model_params_billions": 46.6,
+        "prompt_tokens": 1730,
+        "batch_size": 11,
+        "gpu_memory_gb": 47
+    },
+    "prediction": 238.8638313896019
+}

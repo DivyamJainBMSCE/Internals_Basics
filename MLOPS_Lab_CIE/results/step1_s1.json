@@ -1,0 +1,22 @@
+{
+    "experiment_name": "tokencost-tokens-per-second",
+    "models": [
+        {
+            "name": "Lasso",
+            "mae": 27.684468212486244,
+            "rmse": 31.682547334524177,
+            "r2": 0.8368974233256741,
+            "mape": 12.923291160144338
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 40.15715344198435,
+            "rmse": 49.10394774129411,
+            "r2": 0.6082099024711218,
+            "mape": 19.995075974016842
+        }
+    ],
+    "best_model": "Lasso",
+    "best_metric_name": "rmse",
+    "best_metric_value": 31.682547334524177
+}

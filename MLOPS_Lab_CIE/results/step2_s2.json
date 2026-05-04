@@ -1,0 +1,13 @@
+{
+    "search_type": "random",
+    "n_folds": 3,
+    "total_trials": 5,
+    "best_params": {
+        "n_estimators": 150,
+        "learning_rate": 0.2,
+        "max_depth": 3
+    },
+    "best_mae": 43.84135711935347,
+    "best_cv_mae": 43.84135711935347,
+    "parent_run_name": "tuning-tokencost"
+}

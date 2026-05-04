@@ -25,28 +25,30 @@ Data → Training → MLflow Tracking → Hyperparameter Tuning → Docker Deplo
 ---
 
 ## 📁 Project Structure
+
+```
 MLOPS_Lab_CIE/
 │
 ├── data/
-│ ├── training_data.csv
-│ └── new_data.csv
+│   ├── training_data.csv
+│   └── new_data.csv
 │
 ├── src/
-│ ├── train.py
-│ ├── tune.py
-│ ├── predict_cli.py
-│ └── retrain.py
+│   ├── train.py
+│   ├── tune.py
+│   ├── predict_cli.py
+│   └── retrain.py
 │
 ├── results/
-│ ├── step1_s1.json
-│ ├── step2_s2.json
-│ ├── step3_s3.json
-│ └── step4_s8.json
+│   ├── step1_s1.json
+│   ├── step2_s2.json
+│   ├── step3_s3.json
+│   └── step4_s8.json
 │
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ⚙️ Tasks Implemented
